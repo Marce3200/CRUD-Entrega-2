@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Lista de tareas</title>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f7262076c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<main class="aplicacion">
+		<section class="saludo">
+			<h2 class="titulo">
+				Hola <input type="text" id="nombre" placeholder="(escribe tu nombre aquí)" />
+			</h2>
+		</section>
+		<!-- nueva tarea-->
+		<section class="crear-lista">
+			<h3>CREA TU LISTA DE TAREAS</h3>
+			<form id="nueva-lista-tareas">
+
+<!-- cdar estilos de h4 al label -->
+
+				<label>Qué tienes que hacer?</label> 
+				<input type="text" placeholder="Ingresa tu tarea aquí"name="content"id="content" />
+				
+				<h4>Elige una categoría</h4>
+				<div class="opciones">
+
+					
+					<label >
+
+						<input type="radio" name="category" id="category1" value="trabajo" /> 
+						<span class="etiqueta trabajo"></span>
+						<div>Trabajo</div>
+					</label>
+					<label>
+						<input type="radio" name="category" id="category2" value="personal" />
+						<span class="etiqueta personal"></span>
+						<div>Personal</div>
+					</label>
+					
+				</div>
+				<input type="submit" value="Agregar" />
+			</form>
+		</section>
+		<section class="lista-tareas">
+			<h3>TUS TAREAS</h3>
+			<div class="lista" id="lista-tareas"></div>
+		</section>
+	</main>
+	<script src="./script.js"></script>
+</body>
+</html>
