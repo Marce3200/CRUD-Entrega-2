@@ -1,12 +1,12 @@
-/* Variables */
+/*variables todo el css*/
 :root {
-	--primary:#132861;
-	--business: #0284A8;
+	--primary:#0f1868;
+	--trabajo: #0284A8;
 	--personal: #13ca3b;
 	--light: #EEE;
 	--grey: #888;
 	--dark: #313154;
-	--danger: #ff5b57;
+	--danger: #e6514e;
 
 	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
@@ -14,8 +14,6 @@
 	--personal-glow: 0px 0px 4px rgba(223, 234, 64, 0.986);
 }
 
-
-/* Resets */
 * {
 	margin: 0;
 	padding: 0;
@@ -31,7 +29,7 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 	background: none;
 	cursor: initial;
 }
-/* End of Resets */
+
 
 body {
 	background: var(--light);
@@ -119,7 +117,7 @@ input[type="checkbox"] {
 	width: 20px;
 	height: 20px;
 	border-radius: 999px;
-	border: 2px solid var(--business);
+	border: 2px solid var(--trabajo);
 	box-shadow: var(--business-glow);
 }
 
@@ -137,8 +135,8 @@ input[type="checkbox"] {
 	opacity: 0;
 	width: 0px;
 	height: 0px;
-	background-color: var(--business);
-	box-shadow: var(--business-glow);
+	background-color: var(--trabajo);
+	box-shadow: var(--trabajo-glow);
 	border-radius: 999px;
 	transition: 0.2s ease-in-out;
 }
@@ -242,29 +240,19 @@ input:checked ~ .etiqueta::after {
 	color: var(--grey);
 }
 
-
-
-
-
 @media screen and  (min-width: 1000px){
-	.aplicacion{
-	margin-left: 200px;
-	margin-right: 200px;
-
-}
-}
-@media screen and  (min-width: 1500px){
-	.aplicacion{
-	margin-left: 600px;
-	margin-right: 600px;
-
-}
-}
-
-@media screen and  (min-width: 1500px){
 	.aplicacion{
 	margin-left: 300px;
 	margin-right: 300px;
+
+}
+}
+
+
+@media screen and  (min-width: 1500px){
+	.aplicacion{
+	margin-left: 400px;
+	margin-right: 400px;
 
 }
 }
