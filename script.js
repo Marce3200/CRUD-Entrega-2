@@ -70,7 +70,7 @@ function MostrarTareas () {
 			span.classList.add('trabajo');
 		}
 
-		content.classList.add('tareas-content');// la lista de clases, al elemento le puedo dar una clase o varias, y classlist devuelven todas las clases
+		content.classList.add('tarea-content');// la lista de clases, al elemento le puedo dar una clase o varias, y classlist devuelven todas las clases
 		actions.classList.add('actions');
 		edit.classList.add('edit');
 		deleteButton.classList.add('delete');

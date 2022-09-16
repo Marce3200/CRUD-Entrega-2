@@ -237,7 +237,7 @@ input:checked ~ .etiqueta::after {
 	background-color: var(--danger);
 }
 
-.item-tarea.realizada .todo-content input {
+.item-tarea.realizada .tarea-content input {
 	text-decoration: line-through;
 	color: var(--grey);
 }
