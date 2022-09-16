@@ -261,3 +261,10 @@ input:checked ~ .etiqueta::after {
 }
 }
 
+@media screen and  (min-width: 1500px){
+	.aplicacion{
+	margin-left: 300px;
+	margin-right: 300px;
+
+}
+}
