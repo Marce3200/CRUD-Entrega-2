@@ -2,7 +2,7 @@
 :root {
 	--primary:#0f1868;
 	--trabajo: #0284A8;
-	--personal: #13ca3b;
+	--personal: #13caca;
 	--light: #EEE;
 	--grey: #888;
 	--dark: #313154;
@@ -21,7 +21,19 @@
 	font-family: 'montserrat', sans-serif;
 	
 }
+.cohete{
+	font-size: 50px;
+	 color: #e6514e;
+}
 
+.h5{
+	font-size: 50px;
+}
+
+.texto_nav{
+	size: 5px;
+	color: #20136b;
+}
 input:not([type="radio"]):not([type="checkbox"]), button {
 	appearance: none;
 	border: none;
@@ -239,6 +251,25 @@ input:checked ~ .etiqueta::after {
 	text-decoration: line-through;
 	color: var(--grey);
 }
+
+.pie-pagina {
+	width: 100%;
+	background-color: #146669;
+  }
+  
+ 
+  
+  .pie-pagina .grupo-2 {
+	background-color: var(--personal);
+	background-color: ;
+	padding: 15px, 10px;
+	text-align: center;
+	color: antiquewhite;
+  }
+  .pie-pagina .grupo-2 small {
+	font-size: 15px;
+	color: antiquewhite;
+  }
 
 @media screen and  (min-width: 1000px){
 	.aplicacion{

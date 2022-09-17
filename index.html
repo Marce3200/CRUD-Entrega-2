@@ -5,6 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Lista de tareas</title> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="./style.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +14,17 @@
     <script src="https://kit.fontawesome.com/1f7262076c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+	<header>
+	<nav class="navbar bg-light titulo">
+		<div class="container-fluid">
+			<div class="cohete">
+			<i class="fa-solid fa-rocket" widht="30" height=" 30"></i>
+		    </div>
+		    <d iv >
+			<h5 class= "texto_nav" >Lista de tareas, para que nada se te olvide! </h5>
+		    </d>
+	  </nav>
+	</header>
 	<main class="aplicacion">
 		<section class="saludo">
 			<h2 class="titulo">
@@ -44,6 +57,14 @@
 			<div class="lista" id="lista-tareas"></div>
 		</section>
 	</main>
+	<footer class="pie-pagina">
+	
+		<div class="grupo-2">
+			<span>Lista de Tareas 2022</span><br>
+		  <small>&copy;marcedev 2022 - Todo Los Derechos Reservados</small>
+		</div>
+	  </footer>
+	
 	<script src="./script.js"></script>
 </body>
 </html>
