@@ -261,7 +261,6 @@ input:checked ~ .etiqueta::after {
   
   .pie-pagina .grupo-2 {
 	background-color: var(--personal);
-	background-color: ;
 	padding: 15px, 10px;
 	text-align: center;
 	color: antiquewhite;
